@@ -3,7 +3,7 @@
 //PROF.: Glauber Kiss de Souza
 //DISC.: Analizar Orient. Técnicas
 
-int soma = 1;
+int soma = 1; //used to store data in for example int (integer) 
 int carryBit = 0;
 int nib1a,nib1b,nib1c,nib1d = 0;
 int nib2a,nib2b,nib2c,nib2d = 0;
@@ -28,7 +28,7 @@ void setup()
 	pinMode(13, INPUT);
 }
 
-int somaBit(int b1a, int b2a, int cBit)
+int somaBit(int b1a, int b2a, int cBit) 
 {
 	int bitResult = 0;
 	int aux1, aux2 = 0;
@@ -46,11 +46,11 @@ int somaBit(int b1a, int b2a, int cBit)
 int somaCarryBit(int b1a, int b2a, int cBit)
 {
 	int aux1, aux2 = 0;
-	if (1)
+	if (1) //"if" do something
 	{
 		cBit = 1;
 	}
-	else
+	else //"else" do something else
 	{
 		cBit = 0;
 	}
@@ -80,11 +80,13 @@ void loop()
 		carryBit = somaCarryBit(nib1c,nib2c,carryBit);
 		res1d = somaBit(nib1d,nib2d,carryBit);
 		carryBit = somaCarryBit(nib1d,nib2d,carryBit);
-	}
+	} 
+	//digitalWrite(), writes a high or low state to a digital pin. Used to switch on or off a component.
 	digitalWrite(8,res1a);
 	digitalWrite(9,res1b);
 	digitalWrite(10,res1c);
 	digitalWrite(11,res1d);
 	digitalWrite(12,carryBit);
 }
+
 
