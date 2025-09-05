@@ -17,3 +17,7 @@ Este projeto está licenciado sob a **MIT License** - Veja o arquivo [LICENSE](L
 > Eu na aula de inglês
 
 ![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/kittens.gif "Eu na aula...")
+
+> Quando o código executa certinho e não sei o porquê...
+
+![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/greatest_day.gif "QUando roda o código...")
