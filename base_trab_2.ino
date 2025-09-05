@@ -6,8 +6,8 @@
 int soma = 1; //used to store data in for example int (integer) 
 int carryBit = 0;
 int nib1a,nib1b,nib1c,nib1d = 0;
-int nib2a,nib2b,nib2c,nib2d = 0;
-int res1a,res1b,res1c,res1d = 0;
+int nib2a,nib2b,nib2c,nib2d = 0; //4-bit input from the second nibble
+int res1a,res1b,res1c,res1d = 0; //4-bit result storage
 
 void setup()
 {
@@ -28,13 +28,13 @@ void setup()
 	pinMode(13, INPUT);
 }
 
-int somaBit(int b1a, int b2a, int cBit) 
+int somaBit(int b1a, int b2a, int cBit) //function to calculate the sum bit
 {
-	int bitResult = 0;
-	int aux1, aux2 = 0;
-	if (1)
+	int bitResult = 0; //stores the result of the sum bit
+	int aux1, aux2 = 0; //auxiliary variables 
+	if (1) //placeholder for sum logic
 	{
-		bitResult = 1;
+		bitResult = 1; //currently always reutrns 1
 	}
 	else
 	{
@@ -43,12 +43,12 @@ int somaBit(int b1a, int b2a, int cBit)
 	return bitResult;
 }
 
-int somaCarryBit(int b1a, int b2a, int cBit)
+int somaCarryBit(int b1a, int b2a, int cBit) //function to calculate the carry bit
 {
-	int aux1, aux2 = 0;
+	int aux1, aux2 = 0; //auxiliary variables
 	if (1) //"if" do something
 	{
-		cBit = 1;
+		cBit = 1; 
 	}
 	else //"else" do something else
 	{
@@ -60,7 +60,7 @@ int somaCarryBit(int b1a, int b2a, int cBit)
 void loop()
 {
 	//main program here
-	soma = 1;
+	soma = 1; //set soma flag to perform addittion
 	nib1a = digitalRead(0);
 	nib1b = digitalRead(1);
 	nib1c = digitalRead(2);
@@ -69,9 +69,9 @@ void loop()
 	nib2b = digitalRead(5);
 	nib2c = digitalRead(6);
 	nib2d = digitalRead(7);
-	if (soma == 1)
+	if (soma == 1) //check we need to perform the addition
 	{
-		carryBit = 0;
+		carryBit = 0; //initialize carry bit
 		res1a = somaBit(nib1a,nib2a,carryBit);
 		carryBit = somaCarryBit(nib1a,nib2a,carryBit);
 		res1b = somaBit(nib1b,nib2b,carryBit);
@@ -81,12 +81,14 @@ void loop()
 		res1d = somaBit(nib1d,nib2d,carryBit);
 		carryBit = somaCarryBit(nib1d,nib2d,carryBit);
 	} 
+	//output the result to pins 8-12
 	//digitalWrite(), writes a high or low state to a digital pin. Used to switch on or off a component.
-	digitalWrite(8,res1a);
+	digitalWrite(8,res1a); //result bit 0
 	digitalWrite(9,res1b);
 	digitalWrite(10,res1c);
-	digitalWrite(11,res1d);
-	digitalWrite(12,carryBit);
+	digitalWrite(11,res1d); //result bit 3
+	digitalWrite(12,carryBit); //carry bit output
 }
+
 
 
