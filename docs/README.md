@@ -1,3 +1,14 @@
 # AOT_TRAB2
 
-Materiais referentes ao trabalho 2 da matéria analisar orientações técnicas.
+
+## Visão Geral
+Este projeto implementa um **somador binário de 4 bits** usando uma placa Arduino.
+Ele lê dois números binários de 4 bits, calcula a soma usando lógica de **somador completo (full adder)** e envia o resultado e o bit de carry para saídas digitais.
+
+## Documentação
+- [Overview](overview.md)
+- [Installation](installation.md)
+- [Usage](usage.md)
+
+## Licença
+Este projeto está licenciado sob a **MIT License** - Veja o arquivo [LICENSE](LICENSE).
