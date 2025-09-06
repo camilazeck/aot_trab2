@@ -1,5 +1,5 @@
 # Index
-## ***Welcome to the Project Documentation!***
+## ***__Welcome to the Project Documentation!__***
 
 Here, you will find information about installation, usage, and the API.
 
