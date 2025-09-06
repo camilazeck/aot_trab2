@@ -1,18 +1,18 @@
-# README - Trabalho 2
+# README
 
-## Visão Geral
+## ***__Visão Geral__***
 Este projeto implementa um **somador binário de 4 bits** usando uma placa Arduino.
 Ele lê dois números binários de 4 bits, calcula a soma usando lógica de **somador completo (full adder)** e envia o resultado e o bit de carry para saídas digitais.
 
-## Documentação
+## ***__Documentação__***
 - [Overview](overview.md)
 - [Installation](installation.md)
 - [Usage](usage.md)
 
-## Licença
+## ***__Licença__***
 Este projeto está licenciado sob a **MIT License** - Veja o arquivo [LICENSE](LICENSE).
 
-## goomoof class!
+## ***__goomoof class!__***
 
 > eu na aula de inglês
 
