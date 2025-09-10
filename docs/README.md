@@ -9,7 +9,7 @@ and outputs the result along with the carry bit.
 - [Overview](overview.md)
 - [Installation](installation.md)
 - [Usage](usage.md)
-- [Slides]()
+- [Slides](https://github.com/user-attachments/files/22265514/Arduino.pdf)
 
 ## ***__License__***
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file.
