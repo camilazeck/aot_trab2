@@ -25,7 +25,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/greatest_day.gif "when the code runs perfectly and i dont know why...")
 
 > when my code outputs "Hello World!"
+
 ![](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/hello_world.gif).
+
 (I'm feeling like a genius)
 
 ## Author
