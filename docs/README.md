@@ -28,7 +28,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ![](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/hello_world.gif).
 
-(I'm feeling like a genius)
-
 ## Author
 Camila Zeck
