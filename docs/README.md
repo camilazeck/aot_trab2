@@ -16,14 +16,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ***__goomoof class!__***
 
-> eu na aula de inglês
+> me in english class
 
-![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/kittens.gif "Eu na aula...")
+![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/kittens.gif "me in english class...")
 
-> quando o código executa certinho e não sei o porquê...
+> when the code runs perfectly and i don’t know why…
 
-![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/greatest_day.gif "QUando roda o código...")
+![IMAGEM NAO ENCONTRADA](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/greatest_day.gif "when the code runs perfectly and i dont know why...")
 
+> when my code outputs "Hello World!"
+![](https://github.com/camilazeck/aot_trab2/blob/camila_zeck/docs/images/hello_world.gif).
+(I'm feeling like a genius)
 
 ## Author
 Camila Zeck
